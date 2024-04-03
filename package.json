@@ -1,0 +1,33 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/alpinejs": "^3.13.10",
+    "@types/jquery": "^3.5.29",
+    "@types/jqueryui": "^1.12.22",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "postcss-nesting": "^12.1.0",
+    "sass": "^1.72.0",
+    "scss": "^0.2.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "@rollup/plugin-inject": "^5.0.5",
+    "alpinejs": "^3.13.7",
+    "dotenv": "^16.4.5",
+    "jquery": "^3.7.1",
+    "mat-ripple": "^1.0.4",
+    "swiper": "^11.0.7",
+    "web-dialog": "^0.0.11"
+  }
+}
